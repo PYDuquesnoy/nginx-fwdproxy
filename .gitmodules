@@ -1,0 +1,3 @@
+[submodule "modules/ngx_http_proxy_connect_module"]
+	path = modules/ngx_http_proxy_connect_module
+	url = https://github.com/chobits/ngx_http_proxy_connect_module.git

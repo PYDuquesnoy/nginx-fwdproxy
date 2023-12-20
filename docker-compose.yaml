@@ -1,0 +1,12 @@
+version: "3.3"
+services:
+  fwdproxy:
+    container_name: fwdproxy
+    build:
+      context: .
+      args:
+        ENABLED_MODULES: ngx_http_proxy_connect_module
+    image: fwdproxy
+    ports:
+      - "37080:80"
+      - "27443:443"
